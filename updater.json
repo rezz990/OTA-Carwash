@@ -1,0 +1,22 @@
+{
+  "app": {
+    "name": "Carwash Kasir",
+    "package_name": "com.carwash.kasir",
+    "latest_version": "1.0.1",
+    "version_code": 2
+  },
+  "update": {
+    "available": true,
+    "force_update": false,
+    "title": "Pembaruan tersedia",
+    "message": "Versi terbaru Carwash Kasir tersedia. Perbarui untuk mendapatkan perbaikan dan peningkatan terbaru.",
+    "release_date": "2026-08-13",
+    "download_url": "https://USERNAME.github.io/carwash-kasir-ota/app-release.apk",
+    "changelog": [
+      "Menambahkan fitur edit transaksi.",
+      "Menambahkan konfirmasi sebelum menyimpan transaksi.",
+      "Memperbaiki masalah session JWT yang expired.",
+      "Meningkatkan stabilitas aplikasi."
+    ]
+  }
+}
