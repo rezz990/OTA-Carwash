@@ -11,7 +11,7 @@
     "title": "Pembaruan tersedia",
     "message": "Versi terbaru Carwash Kasir tersedia. Perbarui untuk mendapatkan perbaikan dan peningkatan terbaru.",
     "release_date": "2026-08-13",
-    "download_url": "https://USERNAME.github.io/carwash-kasir-ota/app-release.apk",
+    "download_url": "https://github.com/rezz990/OTA-Carwash/raw/refs/heads/main/app-release-universal.apk",
     "changelog": [
       "Menambahkan fitur edit transaksi.",
       "Menambahkan konfirmasi sebelum menyimpan transaksi.",
