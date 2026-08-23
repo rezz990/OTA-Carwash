@@ -2,8 +2,8 @@
   "app": {
     "name": "Bujon",
     "package_name": "com.bujon.carwash",
-    "latest_version": "1.8.0",
-    "version_code": 11
+    "latest_version": "1.8.1",
+    "version_code": 12
   },
   "update": {
     "available": false,
@@ -11,7 +11,7 @@
     "title": "Pembaruan tersedia",
     "message": "Versi terbaru Carwash Kasir tersedia. Perbarui untuk mendapatkan perbaikan dan peningkatan terbaru.",
     "release_date": "2026-08-23",
-    "download_url": "https://github.com/rezz990/OTA-Carwash/raw/refs/heads/main/app-release_2.apk",
+    "download_url": "https://github.com/rezz990/OTA-Carwash/raw/refs/heads/main/app-release_4.apk",
     "changelog": [
       "Pemeliharaan Kode (Code Maintenance)",
       "Memastikan seluruh modul (ViewModel, Repository, Data Model, dan UI) tetap berjalan bersih dan stabil",
