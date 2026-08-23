@@ -1,22 +1,22 @@
 {
   "app": {
-    "name": "Carwash Kasir",
-    "package_name": "com.carwash.kasir",
-    "latest_version": "1.0.1",
-    "version_code": 2
+    "name": "Bujon",
+    "package_name": "com.bujon.carwash",
+    "latest_version": "1.8.0",
+    "version_code": 11
   },
   "update": {
     "available": true,
     "force_update": false,
     "title": "Pembaruan tersedia",
     "message": "Versi terbaru Carwash Kasir tersedia. Perbarui untuk mendapatkan perbaikan dan peningkatan terbaru.",
-    "release_date": "2026-08-13",
-    "download_url": "https://github.com/rezz990/OTA-Carwash/raw/refs/heads/main/app-release-universal.apk",
+    "release_date": "2026-08-23",
+    "download_url": "https://github.com/rezz990/OTA-Carwash/raw/refs/heads/main/1.8.0.apk",
     "changelog": [
-      "Menambahkan fitur edit transaksi.",
-      "Menambahkan konfirmasi sebelum menyimpan transaksi.",
-      "Memperbaiki masalah session JWT yang expired.",
-      "Meningkatkan stabilitas aplikasi."
+      "Pemeliharaan Kode (Code Maintenance)",
+      "Memastikan seluruh modul (ViewModel, Repository, Data Model, dan UI) tetap berjalan bersih dan stabil",
+      "App Icon (Adaptive Icon Full & Pas)",
+      "Filter & Tampilan Tanpa Plat di Riwayat"
     ]
   }
 }
