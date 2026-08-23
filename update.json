@@ -6,7 +6,7 @@
     "version_code": 12
   },
   "update": {
-    "available": false,
+    "available": true,
     "force_update": false,
     "title": "Pembaruan tersedia",
     "message": "Versi terbaru Carwash Kasir tersedia. Perbarui untuk mendapatkan perbaikan dan peningkatan terbaru.",
