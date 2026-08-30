@@ -2,21 +2,33 @@
   "app": {
     "name": "Bujon",
     "package_name": "com.bujon.carwash",
-    "latest_version": "1.8.1",
-    "version_code": 12
+    "latest_version": "1.8.4",
+    "version_code": 15
   },
   "update": {
     "available": false,
     "force_update": false,
     "title": "Pembaruan tersedia",
     "message": "Versi terbaru Carwash Kasir tersedia. Perbarui untuk mendapatkan perbaikan dan peningkatan terbaru.",
-    "release_date": "2026-08-23",
-    "download_url": "https://github.com/rezz990/OTA-Carwash/raw/refs/heads/main/app-release_4.apk",
+    "release_date": "2026-08-30",
+    "download_url": "https://github.com/rezz990/OTA-Carwash/raw/refs/heads/main/app-release_7.apk",
     "changelog": [
-      "Pemeliharaan Kode (Code Maintenance)",
-      "Memastikan seluruh modul (ViewModel, Repository, Data Model, dan UI) tetap berjalan bersih dan stabil",
-      "App Icon (Adaptive Icon Full & Pas)",
-      "Filter & Tampilan Tanpa Plat di Riwayat"
+      "Menambahkan pengaturan batas waktu sesi yang mengikuti konfigurasi dari dashboard admin.",
+"Menambahkan logout otomatis ketika aplikasi tidak digunakan selama batas waktu yang ditentukan.",
+"Menambahkan Mode Offline Terbatas ketika sesi berakhir tanpa koneksi internet.",
+"Kasir tetap dapat mencatat transaksi meskipun perangkat offline seharian.",
+"Transaksi offline disimpan dengan aman di perangkat sampai internet kembali.",
+"Menunda sinkronisasi sampai sesi pengguna berhasil divalidasi.",
+"Memastikan transaksi pending tidak terhapus ketika sesi berakhir atau pengguna harus login ulang.",
+"Menonaktifkan sementara rekap, edit transaksi, pengaturan, dan sinkronisasi selama Mode Offline Terbatas.",
+"Memulihkan mode normal dan menjalankan sinkronisasi setelah sesi berhasil divalidasi.",
+"Mempertahankan status dan antrean transaksi setelah aplikasi ditutup atau perangkat dinyalakan ulang.",
+"Memperbaiki filter Hari Ini, Minggu Ini, Bulan Ini, dan rentang tanggal khusus pada halaman rekap.",
+"Memperbaiki perhitungan Minggu Ini agar dimulai dari hari Senin.",
+"Mencegah hasil filter lama menimpa filter terbaru.",
+"Mengoptimalkan tampilan aplikasi pada HP berlayar besar dan tablet.",
+"Meningkatkan keamanan dan kestabilan proses refresh token.",
+"Mencegah gangguan server sementara menyebabkan sesi pengguna langsung terhapus."
     ]
   }
 }
