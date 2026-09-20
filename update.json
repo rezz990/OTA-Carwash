@@ -2,33 +2,29 @@
   "app": {
     "name": "Bujon",
     "package_name": "com.bujon.carwash",
-    "latest_version": "1.9.1",
-    "version_code": 15
+    "latest_version": "1.9.2",
+    "version_code": 19
   },
   "update": {
     "available": true,
     "force_update": false,
     "title": "Pembaruan tersedia",
     "message": "Versi terbaru Carwash Kasir tersedia. Perbarui untuk mendapatkan perbaikan dan peningkatan terbaru.",
-    "release_date": "2026-08-30",
-    "download_url": "https://github.com/rezz990/OTA-Carwash/raw/refs/heads/main/191.apk",
+    "release_date": "2026-09-20",
+    "download_url": "https://github.com/rezz990/OTA-Carwash/raw/refs/heads/main/app-production-1.9.2.apk",
     "changelog": [
-      "Menambahkan pengaturan batas waktu sesi yang mengikuti konfigurasi dari dashboard admin.",
-"Menambahkan logout otomatis ketika aplikasi tidak digunakan selama batas waktu yang ditentukan.",
-"Menambahkan Mode Offline Terbatas ketika sesi berakhir tanpa koneksi internet.",
-"Kasir tetap dapat mencatat transaksi meskipun perangkat offline seharian.",
-"Transaksi offline disimpan dengan aman di perangkat sampai internet kembali.",
-"Menunda sinkronisasi sampai sesi pengguna berhasil divalidasi.",
-"Memastikan transaksi pending tidak terhapus ketika sesi berakhir atau pengguna harus login ulang.",
-"Menonaktifkan sementara rekap, edit transaksi, pengaturan, dan sinkronisasi selama Mode Offline Terbatas.",
-"Memulihkan mode normal dan menjalankan sinkronisasi setelah sesi berhasil divalidasi.",
-"Mempertahankan status dan antrean transaksi setelah aplikasi ditutup atau perangkat dinyalakan ulang.",
-"Memperbaiki filter Hari Ini, Minggu Ini, Bulan Ini, dan rentang tanggal khusus pada halaman rekap.",
-"Memperbaiki perhitungan Minggu Ini agar dimulai dari hari Senin.",
-"Mencegah hasil filter lama menimpa filter terbaru.",
-"Mengoptimalkan tampilan aplikasi pada HP berlayar besar dan tablet.",
-"Meningkatkan keamanan dan kestabilan proses refresh token.",
-"Mencegah gangguan server sementara menyebabkan sesi pengguna langsung terhapus."
+"Daftar kendaraan selalu diurutkan konsisten dari ukuran Kecil, Sedang, lalu Besar",
+"Card kendaraan menggunakan ukuran, jarak, dan tinggi yang konsisten.",
+"Layout layar besar menggunakan grid yang lebih seimbang agar kartu tidak terlihat acak di sisi kiri dan kanan.",
+"Notifikasi keberhasilan input transaksi otomatis hilang setelah sekitar 1,8 detik.",
+"Notifikasi setelah mengubah transaksi di Riwayat juga otomatis hilang.",
+"Tombol logout disembunyikan ketika perangkat offline atau internet belum tervalidasi.",
+"Dialog logout otomatis ditutup apabila koneksi terputus.",
+"Status online memerlukan akses internet tervalidasi, bukan hanya status Wi-Fi atau data seluler yang tersambung.",
+"Waktu transaksi disimpan ketika tombol Simpan ditekan.",
+"Sinkronisasi mengirim `tanggalWaktu` asli, bukan waktu ketika internet kembali tersedia.",
+"Setiap transaksi membuat satu UUID `clientTransactionId` sebelum request pertama.",
+"UUID yang sama dipertahankan ketika transaksi masuk antrian offline dan ketika dilakukan retry."
     ]
   }
 }
