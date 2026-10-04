@@ -2,60 +2,25 @@
   "app": {
     "name": "Bujon",
     "package_name": "com.bujon.carwash",
-    "latest_version": "1.11.1",
-    "version_code": 24
+    "latest_version": "1.11.3",
+    "version_code": 26
   },
   "update": {
     "available": true,
     "force_update": false,
     "title": "Pembaruan tersedia",
     "message": "Versi terbaru Carwash Kasir tersedia. Perbarui untuk mendapatkan perbaikan dan peningkatan terbaru.",
-    "release_date": "2026-09-24",
-    "download_url": "https://github.com/rezz990/OTA-Carwash/raw/refs/heads/main/app-production-1.11.1.apk",
+    "release_date": "2026-10-04",
+    "download_url": "https://github.com/rezz990/OTA-Carwash/raw/refs/heads/main/app-production-1.11.3.apk",
     "changelog": [
-"Minor fix jenisKendaraan UUID",
-"Seluruh transaksi online dan offline sekarang melewati satu antrean lokal",
-"Tombol simpan tidak lagi menunggu request server sehingga input offline tetap cepat",
-"UI tidak pernah melakukan POST transaksi secara langsung",
-"Hanya `SyncTransactionsWorker` yang mengirim transaksi ke server",
-"Setiap transaksi memakai UUID yang sama dari penyimpanan lokal sampai seluruh retry selesai",
-"Waktu transaksi memakai waktu asli saat kasir menekan simpan",
-"Respons sukses idempotensi dari server dianggap selesai dan antrean lokal dibersihkan",
-"Request baru yang masuk ketika worker aktif mendapat putaran worker lanjutan",
-"Status `SYNCING` yang tertinggal akibat aplikasi ditutup dipulihkan ke antrean",
-
-"Penanganan error",
-
-"Menambahkan status `AUTH_REQUIRED` untuk antrean yang membutuhkan login ulang",
-"Error jaringan, timeout, HTTP 408/425/429, dan server 5xx dicoba kembali otomatis",
-"Error data HTTP 400/403/404/409/422 masuk ke `NEEDS_REVIEW` dan tidak melakukan loop retry",
-"Pesan error API diterjemahkan menjadi instruksi operasional yang lebih jelas",
-"Transaksi tidak dihapus saat server menolak data",
-"Sesi baru melanjutkan antrean hanya untuk akun kasir pembuat transaksi",
-"Logout ditahan selama akun tersebut masih mempunyai antrean yang belum selesai",
-
-"Pusat Sinkronisasi",
-
-"Menambahkan halaman Pusat Sinkronisasi dari banner transaksi dan Pengaturan",
-"Menampilkan jumlah Menunggu, Mengirim, Perlu diperiksa, dan Perlu login",
-"Menampilkan waktu transaksi asli, kendaraan, plat, tarif, retry, serta alasan kegagalan",
-"Menyediakan tindakan Coba lagi, Perbaiki data, dan Batalkan transaksi lokal",
-"Perubahan antrean tampil otomatis dari Room tanpa refresh manual",
-"Menampilkan waktu sinkronisasi berhasil terakhir",
-
-"Database lokal",
-
-"Room dinaikkan dari versi 2 ke versi 3",
-"Migration mempertahankan transaksi lama dan menambahkan identitas kasir serta metadata percobaan terakhir",
-"`fallbackToDestructiveMigration` dihapus agar antrean tidak terhapus diam-diam saat upgrade",
-
-"Flow dan UI",
-
-"Dialog konfirmasi sebelum menyimpan tetap dipertahankan",
-"Banner status dapat ditekan untuk membuka Pusat Sinkronisasi",
-"Riwayat mengenali status Menunggu, Mengirim, Gagal, Perlu diperiksa, dan Perlu login",
-"Transaksi lokal tidak lagi diedit melalui endpoint transaksi server; perbaikannya dilakukan dari Pusat Sinkronisasi",
-"Snackbar tindakan Pusat Sinkronisasi hilang otomatis setelah 2,5 detik"
+"Merapikan tampilan dan susunan menu Pengaturan agar lebih sederhana dan mudah digunakan.",
+"Mengurangi informasi yang terlalu generik pada halaman Pengaturan.",
+"Memindahkan informasi versi aplikasi dari Pengaturan ke bagian bawah halaman Login.",
+"Memperbarui logo aplikasi pada halaman Login.",
+"Membersihkan logic unused.",
+"Merapikan struktur beberapa komponen aplikasi.",
+"Memperbaiki pengelolaan informasi.",
+"Meningkatkan kestabilan dan kesiapan app."
     ]
   }
 }
